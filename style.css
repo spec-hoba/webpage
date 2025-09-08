@@ -1,0 +1,140 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #fdfdfd;
+    color: #222;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(90deg, #00b712, #5aff15);
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: #ffeb3b;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(120deg, #ff0000, #ff9100, #ffff00);
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background: #222;
+    color: yellow;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: yellow;
+    color: #222;
+}
+
+/* Features (Teams) */
+.features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.features h3 {
+    color: #e53935;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: linear-gradient(160deg, #00c6ff, #0072ff);
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    flex: 1;
+    max-width: 220px;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+/* Matches */
+.matches {
+    padding: 40px 20px;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+.matches h3 {
+    margin-bottom: 15px;
+    color: #00796b;
+}
+
+.matches ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+.matches li {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Footer */
+.site-footer {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.site-footer a {
+    color: #ffff00;
+}
