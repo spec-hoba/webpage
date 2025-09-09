@@ -1,21 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #ff0080, #7928ca, #00dbde);
+    background: linear-gradient(135deg, #ffcc00, #ff0066, #6600ff);
     color: #fff;
     text-align: center;
 }
 
 header {
-    background: #ff007f;
-    padding: 30px;
-    color: yellow;
-    text-shadow: 2px 2px black;
+    background: #ff6600;
+    padding: 40px;
+    color: #fff700;
+    text-shadow: 3px 3px #000;
 }
 
 nav {
-    background: #00dbde;
+    background: #ff0066;
     padding: 15px;
 }
 
@@ -41,7 +41,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: yellow;
-    text-shadow: 2px 2px #ff007f;
+    text-shadow: 2px 2px #6600ff;
 }
 
 main {
@@ -51,17 +51,18 @@ main {
 section {
     margin-bottom: 40px;
     background: rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
+    box-shadow: 0 0 15px #ffcc00;
 }
 
 section h2 {
-    color: lime;
+    color: #00ffcc;
     text-shadow: 2px 2px magenta;
 }
 
 footer {
-    background: #7928ca;
+    background: #6600ff;
     padding: 20px;
     font-size: 14px;
 }
